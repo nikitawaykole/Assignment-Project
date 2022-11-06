@@ -1,0 +1,443 @@
+/* h1 */
+/* { */
+/* color:blue; */
+/* } */
+/* p{ */
+	/* background-color:yellow; */
+/* } */
+
+/*h1{
+	color:red;
+}
+p{
+	color:pink;
+	background-color:yellow;
+}*/
+
+/* #one{ */
+	/* color:yellow; */
+/* } */
+/* #two */
+/* { */
+	/* background-color:green; */
+/* } */
+
+/* .one{ */
+	/* color:yellow; */
+/* } */
+
+/* .two{ */
+	/* color:red; */
+/* } */
+
+
+/* h1,p,b{ */
+	/* color:blue; */
+/* } */
+
+/* Combinator starts */
+/* deccendent selector */
+
+/* div p,h1{ */
+	/* color:red; /* it will apply property to child and grandchild */
+/* } */
+
+
+/*child selector*/
+
+/* div>p{ */
+	/* color:blue; */
+/* } */
+
+/* adjacent sibligs */
+
+/* div+p{ */
+	/* color:red; */
+/* } */
+
+/* all siblings */
+
+/* div~p{ */
+	/* color:green; */
+/* } */
+
+
+/* div{ */
+	/* background-color:black; */
+/* } */
+
+/* a:hover{ */
+	/* color:red; */
+	/* } */
+	
+	
+/* a:link{ */
+	/* color:white; */
+/* } */
+
+/* #one{ */
+	/* background-color:red; */
+	/* color:white; */
+	/* border:0; */
+/* } */
+
+/* #one:hover{ */
+	/* background-color:green; */
+/* } */
+
+
+
+/* /* attribute selector starts  */
+/* syntax: */
+/* [attribute]{ */
+	/* property:value; */
+/* } */
+
+/* */
+/* [type]{ */
+	/* background-color:yellow; */
+	/* color:red; */
+/* } */
+/* [type="text"]{ */
+	/* background-color:yellow; */
+	/* color:red; */
+/* } */
+
+/* [type="submit"]{ */
+	/* background-color:green; */
+/* } */
+
+/* #one:hover{ */
+	/* background-color:pink; */
+/* } */
+	
+
+/* [class*="test"]{ */
+	/* color:red; */
+/* } */
+
+/* [class*="tested"]{ */
+	/* color:red; */
+/* } */
+
+/* [class*="ing"]{ */
+	/* color:red; */
+/* } */
+
+/* universal selector 
+syntax:
+*{
+	property:value;
+}
+*/
+
+/* *{ */
+	/* background-color:pink; */
+	/* font-style:italic; */
+	/* font-family:arial; */
+/* } */
+
+/* color property starts */
+
+/* h1{ */
+	/* color:red; */
+/* } */
+/* p{ */
+	/* color:green; */
+/* } */
+
+/* color codes */
+
+/* h1{ */
+	/* color:#B8FF33; */
+/* } */
+/* p{ */
+	/* color:#3C33FF; */
+/* } */
+
+/* by RGB function 
+color:rgb(red intensity, green intensity, blue intensity)
+intensity: 0 to 255 range
+*/
+
+/* h1{ */
+	/* color:rgb(255, 255, 255); */
+	/* color:rgb(0, 0, 0); */
+	/* color:rgb(94, 255, 51); */
+/* } */
+
+/* text property starts */
+
+/* p{ */
+	/* text-align:justify; left by default,right,center,justify */
+	/* /* text-decoration:underline; /* line-through,overline,none */ 
+	/* text-transform:capitalize; uppercase,lowercase, capitalize */
+	/* text-indent:100px; */
+	/* line-height:30px; */
+	/* word-spacing:8px; */
+	/* letter-spacing:5px; */
+	/* font-size:15px; */
+	/* font-weight:bold; */
+	/* font-stretch:italic; */
+	/* font-family:monotype corsiva; */
+	/* font-family: 'Dancing Script', cursive; */
+		/* box property */
+
+	/* width:500px; */
+	/* height:400px; */
+	/* border-style:ridge; /* solid,dashed,dotted,ridge */
+	/* border-color:blue; */
+	/* border-width:4px; */
+	/* border-radius:15px; */
+	/* border-bottom-style:solid; /*solid,dashed,dotted,ridge */
+	/* border-bottom-color:pink; */
+	/* border-left-style:dotted; */
+	/* border-left-color:red; */
+	/* border-bottom-left-radius:20px;/* bottom-left,bottom-right,top-left,top-right */
+	/* border-right-style:dashed; */
+	/* border-right-color:blue; */
+	/* border-top-color:green; */
+	/* border-top-style:solid; */
+	/* border-top-width:5px; */
+	/* border-top-right-radius:10px; */
+	
+	
+	
+/* } */
+
+/* the layout in which elements width and height are mentioned in 
+ pixcels is calld as static layout. 
+ 
+ if width is given in pixcels, then if we reduced the screen size, then
+ horizontal scrollbar appears, for user horizontal scrolling is tedious,
+ its a bad user experience.
+ 
+ the layout in which elements width and height are mentioned in 
+ percentage is calld as fluid layout.
+ 
+ disadvantage of fluid layout
+ if width is given with small percentage, while decreasing the sreen size, the
+ content become so narrow, that is difficult for the user to rea the content.
+
+*/
+
+/* h1{ */
+	/* font-weight:normal; */
+/* } */
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+/* i{ */
+	/* font-style:normal; */
+/* } */
+
+
+/* p{ */
+	/* width:500px; */
+	/* height:400px; */
+	/* border-style:solid; */
+	/* padding:15px; */
+	/* padding-top:15px; /* left,right,top,bottom */
+/* } */
+
+/* .para1{ */
+	/* width:500px; */
+	/* height:100px; */
+	/* border-style:solid; */
+	/* border-width:4px; */
+	/* background-color:yellow; */
+	/* padding: 10px 10px 15px 20px;  /*top-right-bottom-left */
+	/* padding: 10px 20px;   */
+	/* padding: 10px 15px 20px;  */
+	/* margin:10px; */
+	/* margin-top:20px; */
+	/* margin-left:25px; */
+	/* margin: 100px 300px 110px 310px; */
+	/* margin:50px 80px; */
+	/* margin: 50px 60px 70px; */
+	/* margin:100px auto; */
+	/* box-sizing:border-box; */
+/* } */
+/* margin is a gap b/w two elements, it is applied outside the box */
+
+/* Display property */
+
+/* h1{ */
+	/* display:inline; */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:400px; */
+/* } */
+/* p{ */
+	/* display:inline; */
+/* } */
+/* b{ */
+	/* display:block; */
+/* } */
+/* i{ */
+	/* display:block; */
+/* } */
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+/* li{ */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:150px; */
+	/* height:40px; */
+	/* text-align:center; */
+	/* box-sizing:border-box; */
+	/* margin-right:5px; */
+	/* border-radius:10px; */
+	/* background-color:#179A6A; */
+	/* padding-top:7px; */
+	
+
+/* } */
+
+/* li a{ */
+	/* color:white; */
+	/* font-weight:bold; */
+/* } */
+
+/* li:hover{ */
+	/* background-color:#9FEED1; */
+/* } */
+/* a:hover{ */
+	/* color:black; */
+/* } */
+
+/* box-shadow property: x-offset y-offset blurness spread color */
+
+/* .box_shadow{ */
+	
+	/* width:200px; */
+	/* height:200px; */
+	/* border-style:solid; */
+	/* margin:100px auto; */
+	/* text-align:center; */
+	/* padding-top:70px; */
+	/* box-sizing:border-box; */
+	/* background-color:black; */
+	/* color:white; */
+	/* box-shadow:10px 10px 5px 10px #B35ECF; */
+	
+/* } */
+
+/* #search{ */
+	/* border-width:0px; */
+	/* box-shadow:0px 0px 6px 2px #CACBCB; */
+	/* border-radius:8px; */
+/* } */
+
+/* ::placeholder{ */
+	/* color:red; */
+/* } */
+
+/* text-shadow: x-offset y-offset blurness color; */
+
+/* .text_shadow{ */
+	/* text-align:center; */
+	/* padding-top:200px; */
+	/* font-size:100px; */
+	/* text-shadow:10px 10px 8px #61C2D9; */
+/* } */
+
+/* background property */
+/* .bg{ */
+	/* border-style:solid; */
+	/* height:350px; */
+	/* text-align:center; */
+	/* padding-top:100px; */
+    /* box-sizing:border-box; */
+	/* background-color:#61C2D9; */
+/* } */
+
+/* background image */
+
+.bg1{
+	width:1000px;
+	height:500px;
+	border-style:solid;
+	/* background-image:url('banner.jpg'); */
+	background-image:url('apple.jpg'), url('kiwi.jpg');
+	background-repeat:no-repeat;
+	right:50px;
+
+}
+
+/* .bg1{ */
+	/* height:900px; */
+	/* border-style:solid; */
+	/* background-image:url('../photos/banner.jpg'); */
+	/* repeat-x,repeat-y,no-repeat */
+	/* background-repeat:repeat-x; */
+	/* background-size:100%; */
+	/* background-attachment:scroll; /* fixed, scroll */
+
+
+
+/* div{ */
+	/* width:500px; */
+	/* height:240px; */
+	/* border-style:solid; */
+	/* border-width:4px; */
+	/* background-color:yellow; */
+	/* padding: 10px 10px 10px 10px; */
+	/* margin:50px auto; */
+	/* border-radius:15px; */
+/* } */
+
+
+
+/* .box1{ */
+	/* border-style:solid; */
+	/* width:30%; */
+	/* height:30%; */
+	/* float:left; */
+	/* box-sizing:border-box; */
+	/* border-width:2px; */
+/* } */
+
+/* .box2{ */
+	/* border-style:solid; */
+	/* width:30%; */
+	/* height:30%; */
+	/* float:left; */
+	/* box-sizing:border-box; */
+	/* border-width:2px;	 */
+	
+/* } */
+
+/* .box3{ */
+	/* border-style:solid; */
+	/* float:left; */
+	/* height:30%; */
+	/* width:30%; */
+	/* box-sizing:border-box; */
+	/* border-width:2px; */
+/* } */
+
+
+
+.trans{
+	width:300px;
+	height:300px;
+	border-style:solid;
+	margin:200px auto;
+	background-color:pink; 
+	color:white;
+	text-align:center;
+	transition-property:transform;
+	transition-duration:2s;
+	transition-delay:1s;
+	
+}
+.trans:hover{
+	transform:translate(200px,-200px);
+}
+
+
+.trans:hover{
+	transform:rotate(360deg);
+}
